@@ -2,4 +2,6 @@
 
 ## Links de interes
 
-Documentacion: https://docs.langchain.com/oss/python/langchain/overview
+Documentacion:
+General: https://docs.langchain.com/oss/python/langchain/overview
+Mensajes: https://docs.langchain.com/oss/python/langchain/messages
