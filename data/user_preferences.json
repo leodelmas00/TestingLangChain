@@ -1,0 +1,20 @@
+{
+  "preferences": {
+    "preferredResponseLength": "short",
+    "preferredFormat": "list",
+    "examplePreference": "when_helpful",
+    "clarificationPreference": "balanced"
+  },
+  "pending": {
+    "preferredFormat": {
+      "value": "list",
+      "count": 1,
+      "confidence": 0.8
+    },
+    "examplePreference": {
+      "value": "when_helpful",
+      "count": 1,
+      "confidence": 0.7
+    }
+  }
+}

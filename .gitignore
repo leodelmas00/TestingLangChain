@@ -2,3 +2,4 @@
 venv
 Recordatorios.txt
 Observaciones.txt
+__pycache__
