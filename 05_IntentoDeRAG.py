@@ -15,13 +15,13 @@ load_dotenv()
 # === LLM ===
 
 llm = ChatGroq(
-    model="llama-3.1-8b-instant",
+    model="openai/gpt-oss-20b",
     temperature=0
 )
 
 # === Cargar PDF ===
 
-loader = PyPDFLoader("data/Telefononica.pdf")
+loader = PyPDFLoader("data/SkyRouteTravelAgency.pdf")
 
 documents = loader.load()
 
@@ -100,12 +100,4 @@ Basicamente:
     ii. se recuperan chunks relevantes,
     iii. esos chunks se inyectan en el prompt.
 6. El LLM responde usando ese contexto.
-
-Random, pero probe hacerlo tanto con PrompTemplate pelado
-como con ChatPromptTemplate y este ultimo esta mas perdido,
-no genera buenas respuestas, no se si sera por el modelo
-o por la naturaleza de mandar los mensajes separados
-(en System,Human,etc), anda a saber, pero bueno, por ahora 
-PromptTemplate comun es mas copado con las respuestas, pone
-menos 'peros'.
 """
