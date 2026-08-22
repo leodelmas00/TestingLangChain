@@ -1,0 +1,1 @@
+Se corre con: chainlit run 14_smartChatChainlit.py -w
